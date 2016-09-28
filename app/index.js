@@ -23,7 +23,7 @@ const BoilerplateApp = ({counter, increment, decrement}) => {
 				<Header />
 				<Grid>
 					<Row className="show-grid">		
- -						<Col xs={12}>
+ 						<Col xs={12}>
 							<h1 className="text-center well well-lg" style={styles}>
 								<b>{counter}</b>
 							</h1>
