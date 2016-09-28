@@ -31,13 +31,13 @@ const BoilerplateApp = ({counter, increment, decrement}) => {
 						
 						<Col sm={6} xs={12}>
 							<Button bsSize="large" bsStyle="link" onClick={() => increment(counter)} block>
-								<img src="./app/images/plus.svg" alt="+" width="80" height="80"/>
+								<img src="../app/images/plus.svg" alt="+" width="80" height="80"/>
 							</Button>
 						</Col>
 		
 						<Col sm={6} xs={12}>	
 							<Button bsSize="large" bsStyle="link" onClick={() => decrement(counter)} block>
-								<img src="./app/images/minus.svg" alt="-" width="80" height="80"/>
+								<img src="../app/images/minus.svg" alt="-" width="80" height="80"/>
 							</Button>
 						</Col>
 					</Row>
